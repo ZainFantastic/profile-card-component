@@ -1,0 +1,30 @@
+/* page fonts */
+
+/* regular */
+@font-face{
+  src:url(../fonts/Kumbh_Sans/KumbhSans-Regular.ttf);
+  font-family:KumbhSans-Regular;
+}
+
+/* bold */
+@font-face{
+  src:url(../fonts/Kumbh_Sans/KumbhSans-Bold.ttf);
+  font-family:KumbhSans-Bold;
+}
+
+/* presets */
+
+:root{
+  /* colors */
+  --color-main-bg:#19a2ae;
+  --color-headings:#2d3248;
+  --color-top-sub-heading:#6a6f81;
+  --color-bottom-sub-heading:#969696;
+
+  /* fonts */
+  --font-reg:KumbhSans-Regular;
+  --font-bold:KumbhSans-Bold;
+
+  /* padding*/
+  --padding-out:2.5rem;
+}
